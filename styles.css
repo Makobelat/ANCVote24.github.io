@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffcc00, #ddb101); /* Adjust gradient colors as needed */
+    color: #575656; /* Text color */
+    font-family: 'Arial', sans-serif;
+}
+
+.main-section {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.main-picture {
+    width: 5%;
+    max-height: 40px; /* Adjust the maximum height of the picture */
+    object-fit: cover;
+}
+
+.buttons {
+    margin:0 auto;
+    padding: 30px;
+    display:block;
+}
+
+.button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #050505; /* Button background color */
+    color: #ffcc00; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
